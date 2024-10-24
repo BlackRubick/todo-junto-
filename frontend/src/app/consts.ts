@@ -18,8 +18,8 @@ export const ROUTES = {
 };
 
 // To use the example code, enter the details of the account that will pay the vouchers, etc. (name and mnemonic)
-export const sponsorName = "";
-export const sponsorMnemonic = "";
+export const sponsorName = "Alice";
+export const sponsorMnemonic = "bottom drive obey lake curtain smoke basket hold race lonely fit walk";
 
 export const CONTRACT_DATA: ContractSails = {
   programId: '0x285b178b5ec7720e8ae614e2dc032b86c0135e8a8579fe80c07ab655062e791b',

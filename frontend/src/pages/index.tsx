@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation } from "react-router-dom";
-import { Home } from "./home";
+import  Home  from "../pages/home/home";
 import { Landing } from "./Landing/Landing";
 
 const routes = [

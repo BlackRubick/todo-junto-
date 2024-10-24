@@ -1,0 +1,92 @@
+/* Layout principal que empuja la tarjeta hacia la derecha y arriba */
+.layout {
+  display: flex;
+  justify-content: flex-end; /* Empuja la tarjeta hacia la derecha */
+  padding: 2rem;
+  margin-right: -0.3cm; /* Margen a la derecha */
+  margin-top: -68cm; /* Mueve la tarjeta hacia arriba 3 cm */
+  position: relative; /* Asegura que el desplazamiento sea relativo */
+}
+
+/* Contenedor principal */
+.container {
+  background-color: white;
+  padding: 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Encabezado */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.moreButton {
+  color: #3b82f6;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Item de equipo */
+.teamItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+/* Información del equipo */
+.teamInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Ícono del equipo */
+.teamIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo del ícono dentro del círculo */
+.icon {
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+
+/* Nombre del equipo */
+.teamName {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Tiempo del equipo */
+.teamTime {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Ícono de flecha */
+.arrowIcon {
+  width: 24px;
+  height: 24px;
+  color: #9ca3af;
+}

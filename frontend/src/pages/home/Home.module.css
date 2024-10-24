@@ -1,0 +1,35 @@
+/* Home.module.css */
+
+/* Contenedor principal del Home */
+.home-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Tres columnas: izquierda, centro, derecha */
+    gap: 2rem; /* Espacio entre columnas */
+    padding: 2rem;
+    align-items: flex-start; /* Alinear los elementos en la parte superior */
+    min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+    background-color: #f9f9f9;
+  }
+  
+  /* Columnas individuales */
+  .left-column,
+  .center-column,
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Espacio entre los componentes internos */
+  }
+  
+  /* Aseguramos que cada columna ocupe su espacio */
+  .left-column {
+    align-items: flex-start;
+  }
+  
+  .center-column {
+    align-items: flex-start;
+  }
+  
+  .right-column {
+    align-items: flex-start;
+  }
+  
